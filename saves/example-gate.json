@@ -1,0 +1,19 @@
+{
+	"format": "ideal-world-build",
+	"version": 1,
+	"name": "example-gate",
+	"block_size_m": 0.25,
+	"parts": [
+		{"type": "block", "pos": [20.5, 0.5, 10.5], "material": "oak"},
+		{"type": "block", "pos": [20.5, 1.5, 10.5], "material": "oak"},
+		{"type": "block", "pos": [23.5, 0.5, 10.5], "material": "oak"},
+		{"type": "block", "pos": [23.5, 1.5, 10.5], "material": "oak"},
+		{"type": "block", "pos": [22, 2.5, 10.5], "size": [4, 1, 1], "material": "oak"},
+		{"type": "wedge", "pos": [20.5, 3.5, 10.5], "material": "brick"},
+		{
+			"type": "wedge", "pos": [23.5, 3.5, 10.5], "material": "brick",
+			"rotation": [0, 180, 0]
+		},
+		{"type": "sphere", "pos": [22, 3.5, 10.5], "material": "gold"}
+	]
+}
